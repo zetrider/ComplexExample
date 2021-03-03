@@ -1,0 +1,23 @@
+{
+    "name": "zetrider/complex",
+    "authors": [
+        {
+            "name": "ZetRider",
+            "email": "zetrider@bk.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Complex\\": "Complex/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
